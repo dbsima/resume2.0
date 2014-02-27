@@ -2,24 +2,26 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Summary
+-------
+TODO
 
 Installation
+------------
 
-0. Install ruby
+0.1. Install ruby
 ```shell
-curl -sSL https://get.rvm.io | bash -s stable --ruby=2.0
+$ curl -sSL https://get.rvm.io | bash -s stable --ruby=2.0
 ```
 
-0 bis. Install bundler
+0.2. bis. Install bundler
 ```shell
-gem install bundler
+$ gem install bundler
 ```
-
 
 1. Clone repo
 ```shell
-git clone https://github.com/dbsima/resume2.0.git
-cd resume2.0
+$ git clone https://github.com/dbsima/resume2.0.git
+$ cd resume2.0
 ```
 
 2. Install gem dependencies	
@@ -34,3 +36,12 @@ $ bundle exec rake db:migrate RAILS_ENV=development
 ```shell
 $ bundle exec rails s
 ```
+
+Usage
+-----
+
+In the browser go to http://localhost:3000
+
+Testing
+-------
+TODO
