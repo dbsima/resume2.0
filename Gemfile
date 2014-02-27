@@ -5,7 +5,7 @@ gem 'rails', '4.0.2'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-linkedin'
-
+gem 'omniauth-github'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
