@@ -9,6 +9,13 @@ Installation
 ```shell
 curl -sSL https://get.rvm.io | bash -s stable --ruby=2.0
 ```
+
+0 bis. Install bundler
+```shell
+gem install bundler
+```
+
+
 1. Clone repo
 ```shell
 git clone https://github.com/dbsima/resume2.0.git
@@ -21,9 +28,9 @@ $ bundle install
 ```
 3. Migrate db
 ```shell
-$ bin/rake db:migrate RAILS_ENV=development
+$ bundle exec rake db:migrate RAILS_ENV=development
 ```
 4. Start server
 ```shell
-$ rails s
+$ bundle exec rails s
 ```
